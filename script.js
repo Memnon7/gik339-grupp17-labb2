@@ -1,10 +1,10 @@
-// b-Upp 7: Vänta på att hela DOM:en har laddats innan fetchData-funktionen körs
+
 
 document.addEventListener("DOMContentLoaded", () => {
   fetchData();
 });
 
-// Upp 7: Hämta in data ifrån servern samt logga resultatet
+// Upp 6: Hämta in data ifrån servern samt logga resultatet
 async function fetchData() {
   const url = "http://localhost:3000/users";
 
